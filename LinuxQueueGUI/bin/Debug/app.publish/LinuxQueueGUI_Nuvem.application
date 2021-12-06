@@ -7,7 +7,7 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LinuxQueueGUI_Nuvem.exe.manifest" size="7367">
+    <dependentAssembly dependencyType="install" codebase="Application Files\LinuxQueueGUI_Nuvem_1_7_0_32\LinuxQueueGUI_Nuvem.exe.manifest" size="7367">
       <assemblyIdentity name="LinuxQueueGUI_Nuvem.exe" version="1.7.0.32" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
