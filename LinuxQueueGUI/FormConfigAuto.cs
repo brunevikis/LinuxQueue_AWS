@@ -15,10 +15,10 @@ namespace LinuxQueueGUI
     public partial class FormConfigAuto : Form
     {
 #if DEBUG
-        public string apiUrl = @"http://ec2-50-16-62-68.compute-1.amazonaws.com:5015/api/";
-        public string apiUrl_Z = @"http://ec2-50-16-62-68.compute-1.amazonaws.com:5015/api/";
+        public string apiUrl = @"http://ec2-44-201-188-49.compute-1.amazonaws.com:5015/api/";
+        public string apiUrl_Z = @"http://ec2-44-201-188-49.compute-1.amazonaws.com:5015/api/";
 #else
-        public string apiUrl = @"http://ec2-50-16-62-68.compute-1.amazonaws.com:5015/api/";
+        public string apiUrl = @"http://ec2-44-201-188-49.compute-1.amazonaws.com:5015/api/";
 #endif
 
         System.Net.Http.HttpClient httpClient = new System.Net.Http.HttpClient();

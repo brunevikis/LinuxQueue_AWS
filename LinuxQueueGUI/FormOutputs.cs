@@ -194,10 +194,10 @@ namespace LinuxQueueGUI
 
 
 #if DEBUG
-        public string apiUrl = @"http://ec2-50-16-62-68.compute-1.amazonaws.com:5015/api/";
-        public string apiUrl_Z = @"http://ec2-50-16-62-68.compute-1.amazonaws.com:5015/api/";
+        public string apiUrl = @"http://ec2-44-201-188-49.compute-1.amazonaws.com:5015/api/";
+        public string apiUrl_Z = @"http://ec2-44-201-188-49.compute-1.amazonaws.com:5015/api/";
 #else
-        public string apiUrl = @"http://ec2-50-16-62-68.compute-1.amazonaws.com:5015/api/";
+        public string apiUrl = @"http://ec2-44-201-188-49.compute-1.amazonaws.com:5015/api/";
 #endif
 
         static Font font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
