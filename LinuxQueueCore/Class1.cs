@@ -324,11 +324,11 @@ namespace LinuxQueueCore
             string rootCtlPath;
             if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(System.Runtime.InteropServices.OSPlatform.Linux))
             {
-                rootCtlPath = @"/mnt/Fsx/AWS/cpas_ctl_common";
+                rootCtlPath = @"/mnt/Fsx/AWS/enercore_ctl_common";
             }
             else
             {
-                rootCtlPath = @"X:\AWS\cpas_ctl_common\";
+                rootCtlPath = @"X:\AWS\enercore_ctl_common\";
             }
 
             RegisterFolder(rootCtlPath);
@@ -347,12 +347,12 @@ namespace LinuxQueueCore
         //}
         //L:\Teste_Fila_Dotnet\queuectl\
         public static string rootPath = "";
-        public static string pathQueueNFS = "/mnt/Fsx/AWS/cpas_ctl_common";
+        public static string pathQueueNFS = "/mnt/Fsx/AWS/enercore_ctl_common";
         // public static string pathQueueNFS = "L:\\Teste_Fila_Dotnet\\queuectl\\";
-         public static string queueFolder { get { return System.IO.Path.Combine("/mnt/Fsx/AWS/cpas_ctl_common", "queue"); } }
+         public static string queueFolder { get { return System.IO.Path.Combine("/mnt/Fsx/AWS/enercore_ctl_common", "queue"); } }
         
-        public static string runningFolder { get { return System.IO.Path.Combine("/mnt/Fsx/AWS/cpas_ctl_common", "running"); } }
-        public static string finishedFolder { get { return System.IO.Path.Combine("/mnt/Fsx/AWS/cpas_ctl_common", "finished"); } }
+        public static string runningFolder { get { return System.IO.Path.Combine("/mnt/Fsx/AWS/enercore_ctl_common", "running"); } }
+        public static string finishedFolder { get { return System.IO.Path.Combine("/mnt/Fsx/AWS/enercore_ctl_common", "finished"); } }
 
         
         public static string runlogFolder { get { return System.IO.Path.Combine(rootPath, "run_log"); } }
@@ -505,7 +505,7 @@ namespace LinuxQueueCore
 
                 if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(System.Runtime.InteropServices.OSPlatform.Linux))
                 {
-                    var killCmd = @"/mnt/Fsx/AWS/cpas_ctl_common/killer.sh";
+                    var killCmd = @"/mnt/Fsx/AWS/enercore_ctl_common/killer.sh";
 
                     Console.WriteLine("killing: " + comm.Pid);
 
@@ -533,7 +533,7 @@ namespace LinuxQueueCore
             var comm = new CommItem()
             {
                 WorkingDirectory = ".",
-                Command = "X:\\AWS\\cpas_ctl_common\\killer.sh " + commToKill.Pid,
+                Command = "X:\\AWS\\enercore_ctl_common\\killer.sh " + commToKill.Pid,
                 CommandName = "Killer" + "_" + DateTime.Now.ToString("yyyyMMddHHmmss"),
                 User = requestor,
                 IgnoreQueue = true,

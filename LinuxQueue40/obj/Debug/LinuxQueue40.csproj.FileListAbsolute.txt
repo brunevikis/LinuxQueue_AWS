@@ -10,3 +10,9 @@ C:\Development\LinuxQueue_Nuvem\LinuxQueue40\obj\Debug\LinuxQueue40.csproj.Assem
 C:\Development\LinuxQueue_Nuvem\LinuxQueue40\obj\Debug\LinuxQueue40.csproj.CoreCompileInputs.cache
 C:\Development\LinuxQueue_Nuvem\LinuxQueue40\obj\Debug\LinuxQueue40.dll
 C:\Development\LinuxQueue_Nuvem\LinuxQueue40\obj\Debug\LinuxQueue40.pdb
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueue40\bin\Debug\LinuxQueue40.dll
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueue40\bin\Debug\LinuxQueue40.pdb
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueue40\obj\Debug\LinuxQueue40.csproj.AssemblyReference.cache
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueue40\obj\Debug\LinuxQueue40.csproj.CoreCompileInputs.cache
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueue40\obj\Debug\LinuxQueue40.dll
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueue40\obj\Debug\LinuxQueue40.pdb

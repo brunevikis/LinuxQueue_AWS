@@ -42,6 +42,10 @@ namespace LinuxQueueApi
             {
                 LimparAntigos();
             }
+            else if (args.Contains("testemail"))
+            {
+                TesteMail();
+            }
             else if (args.Contains("result"))//result "teste"
             {
                 Get_Resultado(args[1], true);
@@ -417,6 +421,16 @@ namespace LinuxQueueApi
             var saiu = 0;
 
         }
+
+        public static void TesteMail()
+        {
+            var bodyHtml = $"<html><head><meta http - equiv = 'Content-Type' content = 'text/html; charset=UTF-8' ></head><body> " +
+           $"<p><strong>Teste de email: </strong></p>" +
+           $"<p><strong>enviado com sucesso </strong></p>";
+
+            SendMail(bodyHtml, "bruno.araujo@enercore.com.br", "Teste de email");
+
+        }
         public static void LimparAntigos()
         {
             try
@@ -426,7 +440,7 @@ namespace LinuxQueueApi
                 List<string> diretoriosExcluidos = new List<string>();
                 List<string> arquivosExcluidos = new List<string>();
 
-                var diretorios = Directory.GetDirectories("/mnt/Fsx/AWS/5_encadeado");//L:\\");
+                var diretorios = Directory.GetDirectories("/mnt/Fsx/AWS/3_encadeado");//L:\\");
 
                 if (diretorios.Length > 0)
                     foreach (var diretorio in diretorios)
@@ -560,7 +574,8 @@ namespace LinuxQueueApi
 
             cli.Host = "smtp.gmail.com";
             cli.Port = 587;
-            cli.Credentials = new System.Net.NetworkCredential("cpas.robot@gmail.com", "cp@s9876");
+            //cli.Credentials = new System.Net.NetworkCredential("cpas.robot@gmail.com", "cp@s9876");
+            cli.Credentials = new System.Net.NetworkCredential("cpas.robot@gmail.com", "yfwolohsrzyxvomb");
 
             cli.EnableSsl = true;
 

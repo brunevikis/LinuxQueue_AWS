@@ -1,0 +1,5 @@
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueApi
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=LinuxQueueApi
+--content-root=C:\Development\LinuxQueue_NuvemAWS\LinuxQueueApi
+--file=

@@ -1,0 +1,9 @@
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\bin\Release\netcoreapp2.0\LinuxQueueCore.deps.json
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\bin\Release\netcoreapp2.0\LinuxQueueCore.dll
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\bin\Release\netcoreapp2.0\LinuxQueueCore.pdb
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\obj\Release\netcoreapp2.0\LinuxQueueCore.csproj.AssemblyReference.cache
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\obj\Release\netcoreapp2.0\LinuxQueueCore.AssemblyInfoInputs.cache
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\obj\Release\netcoreapp2.0\LinuxQueueCore.AssemblyInfo.cs
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\obj\Release\netcoreapp2.0\LinuxQueueCore.csproj.CoreCompileInputs.cache
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\obj\Release\netcoreapp2.0\LinuxQueueCore.dll
+C:\Development\LinuxQueue_NuvemAWS\LinuxQueueCore\obj\Release\netcoreapp2.0\LinuxQueueCore.pdb

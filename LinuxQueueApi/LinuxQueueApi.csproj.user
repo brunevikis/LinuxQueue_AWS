@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>LinuxQueueApi</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>FolderProfile</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Development\LinuxQueue_NuvemAWS\LinuxQueueApi\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

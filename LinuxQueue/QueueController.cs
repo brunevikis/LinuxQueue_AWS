@@ -163,7 +163,7 @@ namespace LinuxQueue
             var comm = new CommItem();
 
             comm.WorkingDirectory = ".";
-            comm.Command = "X:\\AWS\\cpas_ctl_common\\killer.sh " + commToKill.Pid;
+            comm.Command = "X:\\AWS\\enercore_ctl_common\\killer.sh " + commToKill.Pid;
 
             comm.CommandName = "Killer" + "_" + DateTime.Now.ToString("yyyyMMddHHmmss");
 

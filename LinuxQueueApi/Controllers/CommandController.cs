@@ -32,7 +32,7 @@ namespace LinuxQueueApi.Controllers
             
             if (name == "queue" || name == "running" || name == "finished")
             {
-                var esp_comms = comms.Where(x => x.Folder.ToString().Contains("cpas_ctl_common/" + name));
+                var esp_comms = comms.Where(x => x.Folder.ToString().Contains("enercore_ctl_common/" + name));
 
 
                 return Json(esp_comms);
