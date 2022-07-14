@@ -2,7 +2,7 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <EnableSecurityDebugging>false</EnableSecurityDebugging>
-    <PublishUrlHistory>C:\Development\Implementacoes\linuxnuvemAWS\|C:\Development\LinuxQueue_NuvemAWS\|C:\Development\Implementacoes\|H:\TI - Sistemas\PROD\CompassLinuxQueue_Nuvem\|\\compassdata\Depto%24\TI - Sistemas\PROD\CompassLinuxQueue_Nuvem\</PublishUrlHistory>
+    <PublishUrlHistory>H:\TI - Sistemas\PROD\EnecoreLinuxQueueAWS\|C:\Development\Implementacoes\linuxnuvemAWS\|C:\Development\LinuxQueue_NuvemAWS\|C:\Development\Implementacoes\|H:\TI - Sistemas\PROD\CompassLinuxQueue_Nuvem\</PublishUrlHistory>
     <InstallUrlHistory />
     <SupportUrlHistory />
     <UpdateUrlHistory />

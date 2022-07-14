@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="LinuxQueueGUI_Nuvem.exe" version="1.7.0.36" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="LinuxQueueGUI_AWS.exe" version="1.7.0.39" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="128.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="LinuxQueueGUI_Nuvem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-    <commandLine file="LinuxQueueGUI_Nuvem.exe" parameters="" />
+    <assemblyIdentity name="LinuxQueueGUI_AWS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LinuxQueueGUI_AWS.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LinuxQueueGUI_Nuvem.exe" size="455680">
-      <assemblyIdentity name="LinuxQueueGUI_Nuvem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LinuxQueueGUI_AWS.exe" size="455680">
+      <assemblyIdentity name="LinuxQueueGUI_AWS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>m7LL8HUSMgX2s+4dASqYMwyVyMf2JC+g0XPxd7f2wNU=</dsig:DigestValue>
+        <dsig:DigestValue>tFRxdo1Mfv9NDzhrpzuHuDBK+Kc37eVyUhrmzwbXuwI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -123,7 +123,7 @@
       <dsig:DigestValue>8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LinuxQueueGUI_Nuvem.exe.config" size="1457">
+  <file name="LinuxQueueGUI_AWS.exe.config" size="1457">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
