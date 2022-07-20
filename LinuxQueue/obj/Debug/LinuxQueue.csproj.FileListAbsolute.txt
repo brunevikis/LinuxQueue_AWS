@@ -36,7 +36,6 @@ C:\Development\LinuxQueue_Nuvem\LinuxQueue\obj\Debug\LinuxQueue.dll
 C:\Development\LinuxQueue_Nuvem\LinuxQueue\obj\Debug\LinuxQueue.pdb
 C:\Development\LinuxQueue_NuvemAWS\LinuxQueue\bin\Debug\LinuxQueue.dll
 C:\Development\LinuxQueue_NuvemAWS\LinuxQueue\bin\Debug\LinuxQueue.pdb
-C:\Development\LinuxQueue_NuvemAWS\LinuxQueue\obj\Debug\LinuxQueue.csproj.AssemblyReference.cache
 C:\Development\LinuxQueue_NuvemAWS\LinuxQueue\obj\Debug\LinuxQueue.csproj.CoreCompileInputs.cache
 C:\Development\LinuxQueue_NuvemAWS\LinuxQueue\obj\Debug\LinuxQueue.dll
 C:\Development\LinuxQueue_NuvemAWS\LinuxQueue\obj\Debug\LinuxQueue.pdb

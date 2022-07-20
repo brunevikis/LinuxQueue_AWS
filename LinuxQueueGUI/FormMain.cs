@@ -1159,5 +1159,11 @@ namespace LinuxQueueGUI
             FormConfigEncadAuto frm = new FormConfigEncadAuto();
             frm.ShowDialog();
         }
+
+        private void gerenciarMáquinasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormGerMaq frm = new FormGerMaq();
+            frm.ShowDialog();
+        }
     }
 }

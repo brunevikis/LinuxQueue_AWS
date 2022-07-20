@@ -163,6 +163,7 @@
             this.dataGridViewCheckBoxColumn6 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.gerenciarMáquinasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -298,7 +299,7 @@
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Location = new System.Drawing.Point(354, 27);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(696, 414);
+            this.groupBox2.Size = new System.Drawing.Size(880, 604);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
@@ -310,7 +311,7 @@
             this.bt_PLDM.FlatAppearance.BorderSize = 0;
             this.bt_PLDM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_PLDM.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_PLDM.Location = new System.Drawing.Point(533, 387);
+            this.bt_PLDM.Location = new System.Drawing.Point(533, 577);
             this.bt_PLDM.Margin = new System.Windows.Forms.Padding(0);
             this.bt_PLDM.Name = "bt_PLDM";
             this.bt_PLDM.Size = new System.Drawing.Size(76, 21);
@@ -336,7 +337,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(467, 387);
+            this.button5.Location = new System.Drawing.Point(467, 577);
             this.button5.Margin = new System.Windows.Forms.Padding(0);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(76, 21);
@@ -352,7 +353,7 @@
             this.btnResultado.FlatAppearance.BorderSize = 0;
             this.btnResultado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnResultado.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResultado.Location = new System.Drawing.Point(391, 387);
+            this.btnResultado.Location = new System.Drawing.Point(391, 577);
             this.btnResultado.Margin = new System.Windows.Forms.Padding(0);
             this.btnResultado.Name = "btnResultado";
             this.btnResultado.Size = new System.Drawing.Size(76, 21);
@@ -368,7 +369,7 @@
             this.btnAbrirPasta.FlatAppearance.BorderSize = 0;
             this.btnAbrirPasta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbrirPasta.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbrirPasta.Location = new System.Drawing.Point(163, 387);
+            this.btnAbrirPasta.Location = new System.Drawing.Point(163, 577);
             this.btnAbrirPasta.Margin = new System.Windows.Forms.Padding(0);
             this.btnAbrirPasta.Name = "btnAbrirPasta";
             this.btnAbrirPasta.Size = new System.Drawing.Size(76, 21);
@@ -384,7 +385,7 @@
             this.btnDetalhes.FlatAppearance.BorderSize = 0;
             this.btnDetalhes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDetalhes.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetalhes.Location = new System.Drawing.Point(11, 387);
+            this.btnDetalhes.Location = new System.Drawing.Point(11, 577);
             this.btnDetalhes.Margin = new System.Windows.Forms.Padding(0);
             this.btnDetalhes.Name = "btnDetalhes";
             this.btnDetalhes.Size = new System.Drawing.Size(76, 21);
@@ -400,7 +401,7 @@
             this.btnIgnorarFila.FlatAppearance.BorderSize = 0;
             this.btnIgnorarFila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIgnorarFila.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIgnorarFila.Location = new System.Drawing.Point(315, 387);
+            this.btnIgnorarFila.Location = new System.Drawing.Point(315, 577);
             this.btnIgnorarFila.Margin = new System.Windows.Forms.Padding(0);
             this.btnIgnorarFila.Name = "btnIgnorarFila";
             this.btnIgnorarFila.Size = new System.Drawing.Size(76, 21);
@@ -417,7 +418,7 @@
             this.btnCancelar.FlatAppearance.BorderSize = 0;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(239, 387);
+            this.btnCancelar.Location = new System.Drawing.Point(239, 577);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(0);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(76, 21);
@@ -433,7 +434,7 @@
             this.btnOutput.FlatAppearance.BorderSize = 0;
             this.btnOutput.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOutput.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOutput.Location = new System.Drawing.Point(87, 387);
+            this.btnOutput.Location = new System.Drawing.Point(87, 577);
             this.btnOutput.Margin = new System.Windows.Forms.Padding(0);
             this.btnOutput.Name = "btnOutput";
             this.btnOutput.Size = new System.Drawing.Size(76, 21);
@@ -445,7 +446,7 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(411, 10);
+            this.button2.Location = new System.Drawing.Point(595, 10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 23);
             this.button2.TabIndex = 8;
@@ -471,8 +472,8 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.txtFiltro);
             this.splitContainer1.Panel2.Controls.Add(this.dgvFinished);
-            this.splitContainer1.Size = new System.Drawing.Size(684, 345);
-            this.splitContainer1.SplitterDistance = 360;
+            this.splitContainer1.Size = new System.Drawing.Size(868, 535);
+            this.splitContainer1.SplitterDistance = 456;
             this.splitContainer1.TabIndex = 10;
             // 
             // splitContainer2
@@ -492,8 +493,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.dgvRunning);
-            this.splitContainer2.Size = new System.Drawing.Size(356, 341);
-            this.splitContainer2.SplitterDistance = 198;
+            this.splitContainer2.Size = new System.Drawing.Size(452, 531);
+            this.splitContainer2.SplitterDistance = 308;
             this.splitContainer2.TabIndex = 15;
             // 
             // label7
@@ -563,7 +564,7 @@
             this.dgvQueue.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dgvQueue.RowHeadersVisible = false;
             this.dgvQueue.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvQueue.Size = new System.Drawing.Size(322, 192);
+            this.dgvQueue.Size = new System.Drawing.Size(418, 302);
             this.dgvQueue.TabIndex = 0;
             this.dgvQueue.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQueue_RowHeaderMouseClick);
             this.dgvQueue.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQueue_CellContentClick);
@@ -686,7 +687,7 @@
             this.btnOrdUp.Enabled = false;
             this.btnOrdUp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOrdUp.Font = new System.Drawing.Font("Wingdings", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnOrdUp.Location = new System.Drawing.Point(331, 3);
+            this.btnOrdUp.Location = new System.Drawing.Point(427, 3);
             this.btnOrdUp.Name = "btnOrdUp";
             this.btnOrdUp.Size = new System.Drawing.Size(22, 23);
             this.btnOrdUp.TabIndex = 5;
@@ -700,7 +701,7 @@
             this.btnOrdDwn.Enabled = false;
             this.btnOrdDwn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOrdDwn.Font = new System.Drawing.Font("Wingdings", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnOrdDwn.Location = new System.Drawing.Point(331, 31);
+            this.btnOrdDwn.Location = new System.Drawing.Point(427, 31);
             this.btnOrdDwn.Name = "btnOrdDwn";
             this.btnOrdDwn.Size = new System.Drawing.Size(22, 23);
             this.btnOrdDwn.TabIndex = 6;
@@ -762,7 +763,7 @@
             this.dgvRunning.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dgvRunning.RowHeadersVisible = false;
             this.dgvRunning.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvRunning.Size = new System.Drawing.Size(356, 139);
+            this.dgvRunning.Size = new System.Drawing.Size(452, 219);
             this.dgvRunning.TabIndex = 0;
             this.dgvRunning.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQueue_RowHeaderMouseClick);
             this.dgvRunning.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFinished_CellContentDoubleClick);
@@ -943,7 +944,7 @@
             this.dgvFinished.ReadOnly = true;
             this.dgvFinished.RowHeadersVisible = false;
             this.dgvFinished.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFinished.Size = new System.Drawing.Size(303, 307);
+            this.dgvFinished.Size = new System.Drawing.Size(391, 497);
             this.dgvFinished.TabIndex = 0;
             this.dgvFinished.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQueue_RowHeaderMouseClick);
             this.dgvFinished.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFinished_CellContentDoubleClick);
@@ -1127,10 +1128,11 @@
             // menuStrip2
             // 
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.configToolStripMenuItem});
+            this.configToolStripMenuItem,
+            this.gerenciarMáquinasToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1062, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(1246, 24);
             this.menuStrip2.TabIndex = 8;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -1147,20 +1149,20 @@
             // automáticoToolStripMenuItem
             // 
             this.automáticoToolStripMenuItem.Name = "automáticoToolStripMenuItem";
-            this.automáticoToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.automáticoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.automáticoToolStripMenuItem.Text = "Automático";
             this.automáticoToolStripMenuItem.Click += new System.EventHandler(this.automáticoToolStripMenuItem_Click);
             // 
             // limitesPLDToolStripMenuItem
             // 
             this.limitesPLDToolStripMenuItem.Name = "limitesPLDToolStripMenuItem";
-            this.limitesPLDToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.limitesPLDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.limitesPLDToolStripMenuItem.Text = "Limites PLD";
             // 
             // automáticoENCADToolStripMenuItem
             // 
             this.automáticoENCADToolStripMenuItem.Name = "automáticoENCADToolStripMenuItem";
-            this.automáticoENCADToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.automáticoENCADToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.automáticoENCADToolStripMenuItem.Text = "Automático ENCAD";
             this.automáticoENCADToolStripMenuItem.Click += new System.EventHandler(this.automáticoENCADToolStripMenuItem_Click);
             // 
@@ -1172,7 +1174,7 @@
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 360);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(335, 81);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(335, 271);
             this.flowLayoutPanel1.TabIndex = 9;
             // 
             // dataGridViewTextBoxColumn1
@@ -1517,11 +1519,18 @@
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
+            // gerenciarMáquinasToolStripMenuItem
+            // 
+            this.gerenciarMáquinasToolStripMenuItem.Name = "gerenciarMáquinasToolStripMenuItem";
+            this.gerenciarMáquinasToolStripMenuItem.Size = new System.Drawing.Size(124, 20);
+            this.gerenciarMáquinasToolStripMenuItem.Text = "Gerenciar Máquinas";
+            this.gerenciarMáquinasToolStripMenuItem.Click += new System.EventHandler(this.gerenciarMáquinasToolStripMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1062, 444);
+            this.ClientSize = new System.Drawing.Size(1246, 634);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.menuStrip2);
@@ -1695,6 +1704,7 @@
         private System.Windows.Forms.Button bt_PLDM;
         private System.Windows.Forms.ToolStripMenuItem limitesPLDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem automáticoENCADToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gerenciarMáquinasToolStripMenuItem;
     }
 }
 

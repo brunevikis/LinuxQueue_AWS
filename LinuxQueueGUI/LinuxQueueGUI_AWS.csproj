@@ -26,7 +26,7 @@
     <PublisherName>Compass</PublisherName>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>40</ApplicationRevision>
+    <ApplicationRevision>42</ApplicationRevision>
     <ApplicationVersion>1.7.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -119,6 +119,12 @@
     <Compile Include="FormConfigEncadAuto.Designer.cs">
       <DependentUpon>FormConfigEncadAuto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGerMaq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGerMaq.Designer.cs">
+      <DependentUpon>FormGerMaq.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormIgnoraFila.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormConfigEncadAuto.resx">
       <DependentUpon>FormConfigEncadAuto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGerMaq.resx">
+      <DependentUpon>FormGerMaq.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormIgnoraFila.resx">
       <DependentUpon>FormIgnoraFila.cs</DependentUpon>
